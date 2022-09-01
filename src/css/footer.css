@@ -1,0 +1,21 @@
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #090F0F;
+  height: 57px;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 57px;
+}
+
+.footer__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: #F8F8F8;
+}/*# sourceMappingURL=footer.css.map */

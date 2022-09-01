@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?v7ycwo');
+  src:  url('fonts/icomoon.eot?v7ycwo#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?v7ycwo') format('truetype'),
+    url('fonts/icomoon.woff?v7ycwo') format('woff'),
+    url('fonts/icomoon.svg?v7ycwo#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 32px;
+  color: #090F0F;
+
+}
+
+.icon-Book:before {
+  content: "\e901";
+}
+.icon-Calculator:before {
+  content: "\e902";
+}
+.icon-Direct-Pay:before {
+  content: "\e903";
+}
+.icon-Elements:before {
+  content: "\e904";
+}
+.icon-Filogix:before {
+  content: "\e905";
+}
+.icon-Folder-cloud:before {
+  content: "\e906";
+}
+.icon-Grid:before {
+  content: "\e907";
+}
+.icon-NAS:before {
+  content: "\e908";
+}
+.icon-Planet:before {
+  content: "\e909";
+}
+.icon-Tree:before {
+  content: "\e90a";
+}
+.icon-Home:before {
+  content: "\e900";
+}
