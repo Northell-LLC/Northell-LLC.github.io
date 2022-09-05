@@ -221,6 +221,7 @@
   grid-template-columns: auto auto auto auto auto;
   padding-top: 40px;
   row-gap: 24px;
+  margin-bottom: 100px;
 }
 @media screen and (max-width: 1375px) {
   .main__container {
@@ -318,8 +319,20 @@
   position: absolute;
   z-index: -1;
   top: -105px;
-  height: 796px;
-  width: 2480px;
+  height: 896px;
+  width: 3000px;
+}
+@media screen and (max-width: 1250px) {
+  .main_bg {
+    height: 796px;
+    width: 2480px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main_bg {
+    height: 667px;
+    width: 2108px;
+  }
 }
 
 .icon {
@@ -375,6 +388,12 @@
   justify-content: space-between;
   align-items: center;
   height: 57px;
+}
+@media screen and (max-width: 600px) {
+  .footer__container {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .footer__text {

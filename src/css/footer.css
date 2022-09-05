@@ -12,6 +12,12 @@
   align-items: center;
   height: 57px;
 }
+@media screen and (max-width: 600px) {
+  .footer__container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 
 .footer__text {
   font-weight: 400;
