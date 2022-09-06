@@ -1,6 +1,8 @@
 .main {
   position: relative;
   overflow: hidden;
+  background-color: #eaf0ea;
+  z-index: -1;
 }
 
 .main__alertWrapper {
@@ -158,7 +160,8 @@
           backdrop-filter: blur(42px);
   border-radius: 20px;
   padding-top: 24px;
-  border-width: 2px;
+  border: 2px solid #fff;
+  box-sizing: border-box;
 }
 @media screen and (max-width: 554px) {
   .main__cardWrapper {
@@ -211,14 +214,24 @@
 }
 
 .main_bg {
-  position: absolute;
+  position: fixed;
   z-index: -1;
-  top: -105px;
+  top: 0;
   height: 896px;
   width: 3000px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media screen and (max-width: 1600px) {
+  .main_bg {
+    top: -50px;
+    height: 796px;
+    width: 2480px;
+  }
 }
 @media screen and (max-width: 1250px) {
   .main_bg {
+    top: -50px;
     height: 796px;
     width: 2480px;
   }
@@ -227,7 +240,7 @@
   .main_bg {
     height: 667px;
     width: 2108px;
-    top: 50px;
+    top: -50px;
   }
 }
 
