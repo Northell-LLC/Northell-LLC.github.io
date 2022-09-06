@@ -152,12 +152,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: linear-gradient(124.36deg, rgba(249, 249, 249, 0.6) 13.21%, rgba(255, 255, 255, 0.8) 103.99%);
+  background: linear-gradient(124.36deg, rgba(249, 249, 249, 0.6) 13.21%, rgba(255, 255, 255, 0.8) 103.99%);
   box-shadow: -1px 8px 12px rgba(210, 210, 210, 0.25);
   -webkit-backdrop-filter: blur(42px);
           backdrop-filter: blur(42px);
   border-radius: 20px;
   padding-top: 24px;
+  border-width: 2px;
 }
 @media screen and (max-width: 554px) {
   .main__cardWrapper {
@@ -187,7 +188,7 @@
   .main__cardTitle {
     font-weight: 600;
     font-size: 16px;
-    line-height: 140%;
+    line-height: 120%;
     padding-bottom: 4px;
   }
 }
@@ -232,6 +233,11 @@
 
 .icon {
   padding-bottom: 18px;
+}
+@media screen and (max-width: 554px) {
+  .icon {
+    padding-bottom: 12px;
+  }
 }
 
 .card_container {
