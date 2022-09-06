@@ -201,6 +201,11 @@
   border: 2px solid #fff;
   box-sizing: border-box;
 }
+@media screen and (max-width: 1151px) {
+  .main__cardWrapper {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 869px) {
   .main__cardWrapper {
     width: 100%;
