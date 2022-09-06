@@ -24,4 +24,9 @@
   font-size: 12px;
   line-height: 140%;
   color: #F8F8F8;
+}
+@media screen and (max-width: 600px) {
+  .footer__text {
+    text-align: center;
+  }
 }/*# sourceMappingURL=footer.css.map */

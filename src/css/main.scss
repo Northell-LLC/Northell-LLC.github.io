@@ -32,6 +32,16 @@
         background-color: #B14653;
         border-radius: 20px;
     }
+    @media screen and (max-width: 754px){
+        display: block;
+        position: absolute;
+        right: -85px;
+
+        width: 40px;
+        height: 164px;
+        background-color: #B14653;
+        border-radius: 20px;
+    }
     @media screen and (max-width: 678px){
         display: block;
         position: absolute;
@@ -43,6 +53,16 @@
         border-radius: 20px;
     }
 
+    @media screen and (max-width: 674px){
+        display: block;
+        position: absolute;
+        right: -50px;
+
+        width: 40px;
+        height: 164px;
+        background-color: #B14653;
+        border-radius: 20px;
+    }
     @media screen and (max-width: 630px){
         display: block;
         position: absolute;
@@ -60,6 +80,17 @@
 
         width: 40px;
         height: 98px;
+        background-color: #B14653;
+        border-radius: 20px;
+    }
+
+    @media screen and (max-width: 367px){
+        display: block;
+        position: absolute;
+        right: -50px;
+
+        width: 40px;
+        height: 118px;
         background-color: #B14653;
         border-radius: 20px;
     }
@@ -128,6 +159,10 @@
         row-gap: 16px;
         column-gap: 16px;
     }
+
+    @media screen and (max-width: 360px){
+        grid-template-columns: auto;
+    }
 }
 
 .main__cardWrapper {
@@ -143,8 +178,14 @@
     padding-top: 24px;
     border:2px solid #fff;
     box-sizing: border-box;
+    @media screen and (max-width: 869px){
+        width: 100%;
+        max-width: 300px;
+        height: 183px; 
+        padding: 20px;
+    }
     @media screen and (max-width: 554px){
-        width: 159px;
+        width: 100%;
         height: 183px; 
         padding: 20px;
     }
